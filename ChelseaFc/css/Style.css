@@ -48,7 +48,7 @@ ul{
 
 h1{
     font-family: var(--Lexend);
-    font-size: 2.5rem;
+    font-size: 1.5rem;
 }
 
 h2{
@@ -91,10 +91,10 @@ p{
 /* --------------- navbar ----------------- */
 
 .nav{
-    background: white;
+    background: yellow;
     padding: 0 2rem;
     height: 0rem;
-    min-height: 10vh;
+    min-height: 8.5vh;
     overflow: hidden;
     transition: height 1s ease-in-out;
 }
@@ -174,9 +174,9 @@ p{
 
 /* --------------- Site title ---------------- */
 main .site-title{
-    background: url('../assets/Chelsea.jpg');
+    background: url('../assets/Lovy.jpg');
     background-size: cover;
-    height: 110vh;
+    height: 70vh;
     display: flex;
     justify-content: center;
 }
@@ -316,29 +316,7 @@ main .post-content .post-title a{
     font-size: 1.5rem;
 }
 
-.site-content .post-content .post-title .post-btn{
-    border-radius: 0;
-    padding: .7rem 1.5rem;
-    background: var(--sky);
-}
 
-.site-content .pagination{
-    justify-content: center;
-    color: var(--text-gray);
-    margin: 4rem 0;
-}
-
-.site-content .pagination a{
-    padding: .6rem .9rem;
-    border-radius: 2rem;
-    margin: 0 .3rem;
-    font-family: var(--Lexend);
-}
-
-.site-content .pagination .pages{
-    background: var(--text-gray);
-    color: var(--white);
-}
 
 /* -------x-------- Site Content --------x-------*/
 
@@ -351,30 +329,33 @@ main .post-content .post-title a{
 
 .site-content > .sidebar .category-list .list-items{
     background: var(--sky);
-    padding: .4rem 1rem;
+    padding: .50rem 1rem;
     margin: .8rem 0;
     border-radius: 3rem;
-    width: 70%;
+    width: 50%;
     display: flex;
     justify-content: space-between;
+    font-weight: bold;
 }
 
 .site-content > .sidebar .category-list .list-items a{
-    color:  black;
+    color:  blue;
 }
 
-.site-content .sidebar .popular-post .post-content{
-    padding: 1rem 0;
+
+.site-content .sidebar .popular-post{
+    align-content: center;
 }
 
 .site-content .sidebar .popular-post h2{
-    padding-top: 8rem;
+    padding-top: 1rem;
+    margin-right: 25px;
 }
 
 .site-content .sidebar .popular-post .post-info{
     padding: .4rem .1rem !important;
     bottom: 0rem !important;
-    left: 1.5rem !important;
+    right: 1.5rem !important;
     border-radius: 0rem !important;
     background: white !important;
 }
@@ -400,7 +381,7 @@ main .post-content .post-title a{
 }
 
 .site-content .sidebar .newsletter .form-btn{
-    border-radius: 0;
+    border-radius: 5;
     padding: .8rem 32%;
     margin: 1rem 0;
     background: var(--sky);
@@ -426,7 +407,7 @@ main .post-content .post-title a{
 /* ----------------- Footer --------------------- */
 
 footer.footer{
-    height: 100%;
+    
     background: var(--bg-color);
     position: relative;
 }
@@ -434,12 +415,14 @@ footer.footer{
 footer.footer .container{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    height: 10%;
 }
 
 footer.footer .container > div{
     flex-grow: 1;
     flex-basis: 0;
     padding: 3rem .9rem;
+    height: 10%;
 }
 
 footer.footer .container h2{
@@ -449,6 +432,7 @@ footer.footer .container h2{
 footer.footer .newsletter .form-element{
     background: black;
     display: inline-block;
+    height: 10%;
 }
 
 footer.footer .newsletter .form-element input{
@@ -465,6 +449,7 @@ footer.footer .newsletter .form-element span{
     background: var(--sky);
     padding: .5rem .7rem;
     cursor: pointer;
+    height: 10%;
 }
 
 footer.footer .instagram div > img{
@@ -477,6 +462,7 @@ footer.footer .instagram div > img{
 footer.footer .follow div i{
     color: var(--white);
     padding: 0 .4rem;
+    height: 10%;
 }
 
 footer.footer .rights{
